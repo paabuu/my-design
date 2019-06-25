@@ -1,0 +1,22 @@
+@import '../../style/color.less';
+@import './mixin';
+
+@radio-prefix-cls: md-radio;
+
+.@{radio-prefix-cls}-wrapper {
+    cursor: pointer;
+}
+
+.@{radio-prefix-cls} {
+    .md-radio();
+
+    &-checked {
+        .md-radio-checked();
+    }
+
+    &-disabled {
+        .md-radio-disabled();
+    }
+}
+
+.md-radio-size();

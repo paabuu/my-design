@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Alert message is bold when description is avaliable 1`] = `
+<Alert
+  description="description"
+  message="message"
+  type="info"
+>
+  <div
+    className="md-alert md-alert-info"
+  >
+    <p
+      className="md-alert-message md-alert-message-bold"
+    >
+      message
+    </p>
+    <p
+      className="md-alert-description"
+    >
+      description
+    </p>
+  </div>
+</Alert>
+`;
+
+exports[`Test Alert render correctly 1`] = `
+<div
+  class="md-alert md-alert-info"
+>
+  <p
+    class="md-alert-message"
+  >
+    message
+  </p>
+  <p
+    class="md-alert-description"
+  />
+</div>
+`;

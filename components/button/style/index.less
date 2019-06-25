@@ -1,0 +1,38 @@
+@import '../../style/color.less';
+@import './mixin';
+
+@btn-prefix-cls: md-btn;
+
+.@{btn-prefix-cls} {
+    .btn;
+
+    &-primary {
+        .btn-primary;
+    }
+
+    &-dashed {
+        .btn-dashed;
+    }
+
+    &-danger {
+        .btn-danger();
+    }
+
+    &-large {
+        .btn-large();
+    }
+
+    &-small {
+        .btn-small();
+    }
+
+    &[disabled] {
+        color: @color-disabled-text;
+        background-color: @color-disabled-bg;
+        border-color: @color-disabled-border;
+    }
+
+    &-wave {
+        .btn-wave();
+    }
+}

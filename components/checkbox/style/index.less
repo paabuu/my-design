@@ -1,0 +1,21 @@
+@import '../../style/color.less';
+@import './mixin';
+
+@checkbox-prefix-cls: md-checkbox;
+
+.@{checkbox-prefix-cls}-wrapper {
+    color: @color-text;
+    font-size: 14px;
+}
+
+.@{checkbox-prefix-cls} {
+    .checkbox;
+
+    &-checked {
+        .checkbox-checked();
+    }
+
+    &-disabled {
+        .checkbox-disabled();
+    }
+}

@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radio Component should render correctly 1`] = `
+<div
+  class="md-radio-group"
+>
+  <label
+    class="md-radio-wrapper"
+  >
+    <span
+      class="md-radio md-radio-default"
+    >
+      <input
+        type="radio"
+        value="r1"
+      />
+      <span
+        class="md-radio-inner"
+      />
+    </span>
+    <span
+      style="cursor:pointer"
+    >
+      Radio1
+    </span>
+  </label>
+  <label
+    class="md-radio-wrapper"
+  >
+    <span
+      class="md-radio md-radio-default md-radio-checked"
+    >
+      <input
+        checked=""
+        type="radio"
+        value="r2"
+      />
+      <span
+        class="md-radio-inner"
+      />
+    </span>
+    <span
+      style="cursor:pointer"
+    >
+      Radio2
+    </span>
+  </label>
+</div>
+`;
+
+exports[`Radio Component should render disabled props correctly 1`] = `
+<div
+  class="md-radio-group"
+>
+  <label
+    class="md-radio-wrapper"
+  >
+    <span
+      class="md-radio md-radio-default md-radio-disabled"
+    >
+      <input
+        type="radio"
+        value="r1"
+      />
+      <span
+        class="md-radio-inner"
+      />
+    </span>
+    <span
+      style="cursor:not-allowed"
+    >
+      Radio1
+    </span>
+  </label>
+  <label
+    class="md-radio-wrapper"
+  >
+    <span
+      class="md-radio md-radio-default md-radio-checked md-radio-disabled"
+    >
+      <input
+        checked=""
+        type="radio"
+        value="r2"
+      />
+      <span
+        class="md-radio-inner"
+      />
+    </span>
+    <span
+      style="cursor:not-allowed"
+    >
+      Radio2
+    </span>
+  </label>
+</div>
+`;
+
+exports[`Radio Component should render size props correctly 1`] = `
+<div
+  class="md-radio-group"
+>
+  <label
+    class="md-radio-wrapper"
+  >
+    <span
+      class="md-radio md-radio-small"
+    >
+      <input
+        type="radio"
+        value="r1"
+      />
+      <span
+        class="md-radio-inner"
+      />
+    </span>
+    <span
+      style="cursor:pointer"
+    >
+      Radio1
+    </span>
+  </label>
+  <label
+    class="md-radio-wrapper"
+  >
+    <span
+      class="md-radio md-radio-small md-radio-checked"
+    >
+      <input
+        checked=""
+        type="radio"
+        value="r2"
+      />
+      <span
+        class="md-radio-inner"
+      />
+    </span>
+    <span
+      style="cursor:pointer"
+    >
+      Radio2
+    </span>
+  </label>
+</div>
+`;
+
+exports[`Radio Component should render size props correctly 2`] = `
+<div
+  class="md-radio-group"
+>
+  <label
+    class="md-radio-wrapper"
+  >
+    <span
+      class="md-radio md-radio-small"
+    >
+      <input
+        type="radio"
+        value="r1"
+      />
+      <span
+        class="md-radio-inner"
+      />
+    </span>
+    <span
+      style="cursor:pointer"
+    >
+      Radio1
+    </span>
+  </label>
+  <label
+    class="md-radio-wrapper"
+  >
+    <span
+      class="md-radio md-radio-small md-radio-checked"
+    >
+      <input
+        checked=""
+        type="radio"
+        value="r2"
+      />
+      <span
+        class="md-radio-inner"
+      />
+    </span>
+    <span
+      style="cursor:pointer"
+    >
+      Radio2
+    </span>
+  </label>
+</div>
+`;

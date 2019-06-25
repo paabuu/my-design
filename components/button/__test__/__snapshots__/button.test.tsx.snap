@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button render correctly 1`] = `
+<button
+  class="md-btn"
+>
+  <span>
+    Follow
+  </span>
+</button>
+`;
+
+exports[`Button render correctly 2`] = `
+<button
+  class="md-btn md-btn-primary"
+>
+  <span>
+    Primary
+  </span>
+</button>
+`;
+
+exports[`Button render correctly 3`] = `
+<button
+  class="md-btn md-btn-large"
+>
+  <span>
+    Large
+  </span>
+</button>
+`;
+
+exports[`Button should combine classname 1`] = `
+<Button
+  className="new-class"
+>
+  <button
+    className="md-btn new-class"
+    onClick={[Function]}
+  >
+    <span>
+      ClassName
+    </span>
+  </button>
+</Button>
+`;
+
+exports[`Button simulate click event 1`] = `
+<Button
+  onClick={[MockFunction]}
+>
+  <button
+    className="md-btn"
+    onClick={[Function]}
+  >
+    <span>
+      Wave
+    </span>
+  </button>
+</Button>
+`;

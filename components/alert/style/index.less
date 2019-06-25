@@ -1,0 +1,43 @@
+@import '../../style/color.less';
+@padding: 8px 15px;
+
+.md-alert {
+    width: 100%;
+    padding: @padding;
+    border-radius: 4px;
+    line-height: 1.5;
+
+    &-info {
+        border: 1px solid @color-info;
+        background-color: @color-info-lighter;
+    }
+
+    &-success {
+        border: 1px solid @color-success;
+        background-color: @color-success-lighter;
+    }
+
+    &-warning {
+        border: 1px solid @color-warning;
+        background-color: @color-warning-lighter;
+    }
+
+    &-error {
+        border: 1px solid @color-error;
+        background-color: @color-error-lighter;
+    }
+
+    &-message {
+        line-height: 1.5;
+    }
+
+    &-message-bold {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    &-description {
+        margin-top: -.5em;
+        word-break: break-all;
+    }
+}

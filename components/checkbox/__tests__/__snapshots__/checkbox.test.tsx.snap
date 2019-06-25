@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox render correctly 1`] = `
+<label
+  class="md-checkbox-wrapper"
+>
+  <span
+    class="md-checkbox"
+  >
+    <input
+      type="checkbox"
+    />
+    <span
+      class="md-checkbox-inner"
+    />
+  </span>
+  <span>
+    Checkbox
+  </span>
+</label>
+`;
+
+exports[`Checkbox render correctly 2`] = `
+<label
+  class="md-checkbox-wrapper"
+>
+  <span
+    class="md-checkbox md-checkbox-checked"
+  >
+    <input
+      checked=""
+      type="checkbox"
+    />
+    <span
+      class="md-checkbox-inner"
+    />
+  </span>
+  <span>
+    Checked
+  </span>
+</label>
+`;
+
+exports[`Checkbox render correctly 3`] = `
+<label
+  class="md-checkbox-wrapper"
+>
+  <span
+    class="md-checkbox"
+  >
+    <input
+      type="checkbox"
+    />
+    <span
+      class="md-checkbox-inner"
+    />
+  </span>
+  <span>
+    Disabled
+  </span>
+</label>
+`;
+
+exports[`Checkbox render correctly 4`] = `
+<label
+  class="md-checkbox-wrapper"
+>
+  <span
+    class="new-class md-checkbox"
+  >
+    <input
+      type="checkbox"
+    />
+    <span
+      class="md-checkbox-inner"
+    />
+  </span>
+  <span>
+    New Class
+  </span>
+</label>
+`;
+
+exports[`Checkbox toggle checked status when change 1`] = `
+<Checkbox>
+  <label
+    className="md-checkbox-wrapper"
+  >
+    <span
+      className="md-checkbox"
+    >
+      <input
+        checked={false}
+        onChange={[Function]}
+        onClick={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="md-checkbox-inner"
+      />
+    </span>
+    <span>
+      Checkbox
+    </span>
+  </label>
+</Checkbox>
+`;
+
+exports[`Checkbox toggle checked status when change 2`] = `
+<Checkbox>
+  <label
+    className="md-checkbox-wrapper"
+  >
+    <span
+      className="md-checkbox md-checkbox-checked"
+    >
+      <input
+        checked={true}
+        onChange={[Function]}
+        onClick={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="md-checkbox-inner"
+      />
+    </span>
+    <span>
+      Checkbox
+    </span>
+  </label>
+</Checkbox>
+`;

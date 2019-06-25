@@ -1,0 +1,24 @@
+{
+    "rules": {
+        "no-console": {
+            "severity": "warning",
+            "options": ["debug", "info", "log", "time", "timeEnd", "trace"]
+        },
+        "ban-comma-operator": true,
+        "no-empty": true,
+        "no-var-keyword": true,
+        "prefer-object-spread": true,
+        "triple-equals": true,
+        "prefer-const": true,
+        "align": [true, "parameters", "statements"],
+        "space-within-parens": true,
+        "no-consecutive-blank-lines": [true, 1],
+        "one-variable-per-declaration": true,
+        "semicolon": [true, "always"],
+        "import-spacing": true,
+        "newline-before-return": true,
+        "white-space": [true, "check-branch", "check-operator", "check-typecast"],
+        "jsdoc-format": true
+    },
+    "rulesDirectory": ["./src/"]
+}
